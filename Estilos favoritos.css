@@ -1,0 +1,511 @@
+/*.karantina-light {
+    font-family: "Karantina", system-ui;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .karantina-regular {
+    font-family: "Karantina", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .karantina-bold {
+    font-family: "Karantina", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}*/
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karantina", system-ui;
+    font-style: normal;
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #BF0A30;
+    padding: 20px;
+    font-family: "Karantina", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.imagen {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 250px;
+    height: 95px;
+}
+
+.navegation{
+    margin-right: 0;
+    padding-top: 30px;
+    color: white;
+}
+
+.nav-items {
+    color: white;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.nav-items li {
+    list-style: none;
+    font-size: 35px;
+}
+ 
+.nav-items li a { 
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.nav-items li:nth-child(2) a {
+    position: relative;
+}
+
+.nav-items li:nth-child(2) a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px; 
+    width: 100%;
+    height: 3px; 
+    background-color: white;
+}
+
+/*.karantina-light {
+    font-family: "Karantina", system-ui;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .karantina-regular {
+    font-family: "Karantina", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .karantina-bold {
+    font-family: "Karantina", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}*/
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karantina", system-ui;
+    font-style: normal;
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #BF0A30;
+    padding: 20px;
+    font-family: "Karantina", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.imagen {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 250px;
+    height: 95px;
+}
+
+.navegation{
+    margin-right: 0;
+    padding-top: 30px;
+    color: white;
+}
+
+.nav-items {
+    color: white;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.nav-items li {
+    list-style: none;
+    font-size: 35px;
+}
+ 
+.nav-items li a { 
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.nav-items li:nth-child(2) a {
+    position: relative;
+    text-decoration: none;
+}
+
+.nav-items li:nth-child(2) a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px; 
+    width: 100%;
+    height: 3px; 
+}
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 170px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(planeta\ 13.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.secf {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 140px;
+}
+
+.profile .logo {
+    height: 190px;
+    width: 320px;
+    padding-left: 130px;
+}
+
+.fav {
+    color: #E2944E;
+    padding-right: 80px;
+    padding-top: 70px;
+}
+
+.fav .botfav {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: #252525;
+    border-radius: 30px;
+}
+
+.favoritos-titulo {
+    color: #E2944E;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #E2944E;
+    padding-top: 20PX;
+    width: 800PX;
+}
+
+.card-list-DOS {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-right: 20px;
+    padding-left: 3px;
+}
+
+.inf {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.recuadro {
+    padding-left: 70px;
+}
+
+.cuadro {
+    background-color: #252525;
+    width: 300px;
+    padding-left: 37px;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+
+.nombre {
+    color: white;
+    font-size: 40px;
+}
+
+.texto {
+    color: white;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+.bot {
+    padding-left: 2px;
+    padding-top: 25px;
+}
+
+.bot .botoned a {
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #E2944E;
+    padding-left: 65px;
+    padding-right: 65px;
+    border-radius: 13px;
+    display: inline-block;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.bot .botoned a:hover {
+    background-color: #ba7941;
+}
+
+
+
+
+.user-image-BULMA {
+    display: flex;
+    justify-content: center;
+    width: 230px;
+    height: 500px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.navegation-BULMA{
+    margin-right: 0;
+}
+
+.nav-items-BULMA {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    background: none;
+}
+
+.nav-items-BULMA li {
+    font-size: 30px;
+    display: flex;
+    list-style: none;
+    background: none;
+}
+ 
+.nav-items-BULMA li a {
+    font-size: 30px; 
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background-color: #c3c3c3;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    border: 2px;
+    border-radius: 8px;
+}
+
+.nav-items-BULMA li a:hover {
+    background-color: #a9a9a9;
+}
+    
+.nav-items-BULMA li a:active{
+    background-color: #808080;
+}
+
+.card-list-DOS .card-item-BULMA {
+    color: #fff;
+    width: 350px;
+    padding-top: 40px;
+    padding-left: 45px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2)
+}
+
+
+
+
+
+.user-image-FREEZER {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 495px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+
+.navegation-FREEZER{
+    margin-right: 0;
+}
+
+.nav-items-FREEZER {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    background: none;
+}
+
+.nav-items-FREEZER li {
+    font-size: 30px;
+    display: flex;
+    list-style: none;
+    background: none;
+}
+ 
+.nav-items-FREEZER li a {
+    font-size: 30px; 
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background-color: #c3c3c3;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 2px;
+    border-radius: 8px;
+}
+
+.nav-items-FREEZER li a:hover {
+    background-color: #a9a9a9;
+}
+    
+.nav-items-FREEZER li a:active{
+    background-color: #808080;
+}
+
+.card-list-DOS .card-item-FREEZER {
+    color: #fff;
+    width: 350px;
+    padding-top: 40px;
+    padding-left: 65px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2)
+}
+
+
+
+
+.user-image-KRILLIN {
+    display: flex;
+    justify-content: center;
+    padding-left: 1px;
+    padding-bottom: 20px;
+    width: 250px;
+    height: 500px;
+}
+
+.navegation-KRILLIN{
+    margin-right: 0;
+}
+
+.nav-items-KRILLIN {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    background: none;
+}
+
+.nav-items-KRILLIN li {
+    font-size: 30px;
+    display: flex;
+    list-style: none;
+    background: none;
+}
+ 
+.nav-items-KRILLIN li a {
+    font-size: 27px; 
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background-color: #c3c3c3;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    border: 2px;
+    border-radius: 8px;
+}
+
+.nav-items-KRILLIN li a:hover {
+    background-color: #a9a9a9;
+}
+    
+.nav-items-KRILLIN li a:active{
+    background-color: #808080;
+}
+
+.card-list-DOS .card-item-KRILLIN {
+    color: #fff;
+    width: 350px;
+    padding-top: 40px;
+    padding-left: 65px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2)
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1A1A1A;
+    text-align: center;
+    font-size: 25px;
+}

@@ -1,0 +1,595 @@
+/*.karantina-light {
+    font-family: "Karantina", system-ui;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .karantina-regular {
+    font-family: "Karantina", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .karantina-bold {
+    font-family: "Karantina", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}*/
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karantina", system-ui;
+    font-style: normal;
+}
+
+body {
+    background-color: #1A1A1A;
+}
+
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #BF0A30;
+    padding: 20px;
+    font-family: "Karantina", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.imagen {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 250px;
+    height: 95px;
+}
+
+.navegation{
+    margin-right: 0;
+    padding-top: 30px;
+    color: white;
+}
+
+.nav-items {
+    color: white;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.nav-items li {
+    list-style: none;
+    font-size: 35px;
+}
+ 
+.nav-items li a { 
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.nav-items li:first-child a {
+    position: relative;
+}
+
+.nav-items li:first-child a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(fondo\ 44.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.Tituloconoce {
+    font-family: "Karantina", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+
+#hello {
+    color: red;
+}
+
+.slider-wraper {
+    background-color: #2E2E2E;
+    border-radius: 55px;
+    padding: 30px;
+}
+
+.search-container-dos {
+    display: flex;
+    justify-self: center;
+    font-family: "Karantina", system-ui;
+    font-style: normal;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-container-dos i {
+    font-size: 20px;
+    color: gray;
+    margin-right: 10px;
+}
+
+.search-container-dos input {
+    font-family: "Karantina", system-ui;
+    font-style: normal;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    color: black;
+}
+
+.search-container-dos input::placeholder {
+    font-family: "Karantina", system-ui;
+    font-style: normal;
+    color: gray;
+    font-weight: bold;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.user-image-GOKU {
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 580px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.navegation-GOKU{
+    margin-right: 0;
+}
+
+.nav-items-GOKU {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background: none;
+}
+
+.nav-items-GOKU li {
+    font-size: 35px;
+    display: flex;
+    list-style: none;
+    background: none;
+}
+ 
+.nav-items-GOKU li a {
+    font-size: 35px; 
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background-color: #c3c3c3;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    border: 2px;
+    border-radius: 8px;
+}
+
+.nav-items-GOKU li a:hover {
+    background-color: #a9a9a9;
+}
+    
+.nav-items-GOKU li a:active{
+    background-color: #808080;
+}
+
+.card-list .card-item-GOKU {
+    color: #fff;
+    width: 400px;
+    padding-top: 40px;
+    padding-left: 65px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2)
+}
+
+
+
+.user-image-VEGETA {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 580px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.navegation-VEGETA{
+    margin-right: 0;
+}
+
+.nav-items-VEGETA {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    background: none;
+}
+
+.nav-items-VEGETA li {
+    font-size: 35px;
+    display: flex;
+    list-style: none;
+    background: none;
+}
+ 
+.nav-items-VEGETA li a {
+    font-size: 35px; 
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background-color: #c3c3c3;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 2px;
+    border-radius: 8px;
+}
+
+.nav-items-VEGETA li a:hover {
+    background-color: #a9a9a9;
+}
+    
+.nav-items-VEGETA li a:active{
+    background-color: #808080;
+}
+
+.card-list .card-item-VEGETA {
+    color: #fff;
+    width: 400px;
+    padding-top: 40px;
+    padding-left: 65px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2)
+}
+
+
+
+
+.user-image-PICOLO {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    width: 300px;
+    height: 580px;
+}
+
+.navegation-PICOLO{
+    margin-right: 0;
+}
+
+.nav-items-PICOLO {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    background: none;
+}
+
+.nav-items-PICOLO li {
+    font-size: 35px;
+    display: flex;
+    list-style: none;
+    background: none;
+}
+ 
+.nav-items-PICOLO li a {
+    font-size: 35px; 
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background-color: #c3c3c3;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 2px;
+    border-radius: 8px;
+}
+
+.nav-items-PICOLO li a:hover {
+    background-color: #a9a9a9;
+}
+    
+.nav-items-PICOLO li a:active{
+    background-color: #808080;
+}
+
+.card-list .card-item-PICOLO {
+    color: #fff;
+    width: 400px;
+    padding-top: 40px;
+    padding-left: 65px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2)
+}
+
+
+
+
+
+
+.card-list-DOS {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.user-image-BULMA {
+    display: flex;
+    justify-content: center;
+    width: 240px;
+    height: 580px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.navegation-BULMA{
+    margin-right: 0;
+}
+
+.nav-items-BULMA {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background: none;
+}
+
+.nav-items-BULMA li {
+    font-size: 35px;
+    display: flex;
+    list-style: none;
+    background: none;
+}
+ 
+.nav-items-BULMA li a {
+    font-size: 35px; 
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background-color: #c3c3c3;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    border: 2px;
+    border-radius: 8px;
+}
+
+.nav-items-BULMA li a:hover {
+    background-color: #a9a9a9;
+}
+    
+.nav-items-BULMA li a:active{
+    background-color: #808080;
+}
+
+.card-list-DOS .card-item-BULMA {
+    color: #fff;
+    width: 400px;
+    padding-top: 40px;
+    padding-left: 65px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2)
+}
+
+
+
+
+
+.user-image-FREEZER {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 580px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+
+.navegation-FREEZER{
+    margin-right: 0;
+}
+
+.nav-items-FREEZER {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    background: none;
+}
+
+.nav-items-FREEZER li {
+    font-size: 35px;
+    display: flex;
+    list-style: none;
+    background: none;
+}
+ 
+.nav-items-FREEZER li a {
+    font-size: 35px; 
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background-color: #c3c3c3;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 2px;
+    border-radius: 8px;
+}
+
+.nav-items-FREEZER li a:hover {
+    background-color: #a9a9a9;
+}
+    
+.nav-items-FREEZER li a:active{
+    background-color: #808080;
+}
+
+.card-list-DOS .card-item-FREEZER {
+    color: #fff;
+    width: 400px;
+    padding-top: 40px;
+    padding-left: 65px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2)
+}
+
+
+
+
+.user-image-KRILLIN {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    width: 263px;
+    height: 580px;
+}
+
+.navegation-KRILLIN{
+    margin-right: 0;
+}
+
+.nav-items-KRILLIN {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    background: none;
+}
+
+.nav-items-KRILLIN li {
+    font-size: 35px;
+    display: flex;
+    list-style: none;
+    background: none;
+}
+ 
+.nav-items-KRILLIN li a {
+    font-size: 35px; 
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background-color: #c3c3c3;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 2px;
+    border-radius: 8px;
+}
+
+.nav-items-KRILLIN li a:hover {
+    background-color: #a9a9a9;
+}
+    
+.nav-items-KRILLIN li a:active{
+    background-color: #808080;
+}
+
+.card-list-DOS .card-item-KRILLIN {
+    color: #fff;
+    width: 400px;
+    padding-top: 40px;
+    padding-left: 65px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2)
+}
+
+
+.secflechas {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.space {
+    padding-top: 15px;
+    height: 10px;
+    width: 30px;
+}
+
+.flecha-derecha {
+    padding-left: 18px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1A1A1A;
+    text-align: center;
+    font-size: 25px;
+}

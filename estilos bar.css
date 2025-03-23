@@ -1,0 +1,75 @@
+/*.karantina-light {
+    font-family: "Karantina", system-ui;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .karantina-regular {
+    font-family: "Karantina", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .karantina-bold {
+    font-family: "Karantina", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}*/
+  
+
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karantina", system-ui;
+    font-style: normal;
+}
+
+
+
+.search-container-dos {
+    font-family: "Karantina", system-ui;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    width: 500px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-container-dos i {
+    font-size: 20px;
+    color: gray;
+    margin-right: 10px;
+}
+
+.search-container-dos input {
+    font-family: "Karantina", system-ui;
+    font-style: normal;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    color: black;
+}
+
+.search-container-dos input::placeholder {
+    font-family: "Karantina", system-ui;
+    font-style: normal;
+    color: gray;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1A1A1A;
+    text-align: center;
+    font-size: 25px;
+}
